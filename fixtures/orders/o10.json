@@ -1,0 +1,185 @@
+{
+  "_synthetic": "Synthetic test data for this demo. Not a real order, store or customer. Attribution/app/publication values are invented to exercise the classifier and are NOT values observed on real Shopify orders.",
+  "ref": "o10",
+  "scenario": "Meta direct checkout paid in CAD (shop currency USD).",
+  "expected_channel": "meta_ai",
+  "payload": {
+    "id": 990000000110,
+    "admin_graphql_api_id": "gid://shopify/Order/990000000110",
+    "name": "#D1010",
+    "email": "buyer10@example.com",
+    "created_at": "2026-09-30T17:25:00Z",
+    "processed_at": "2026-09-30T17:25:00Z",
+    "updated_at": "2026-09-30T17:25:00Z",
+    "test": false,
+    "currency": "USD",
+    "presentment_currency": "CAD",
+    "financial_status": "paid",
+    "source_name": "synthetic_ai_channel_source",
+    "app_id": null,
+    "landing_site": null,
+    "referring_site": null,
+    "browser_ip": null,
+    "client_details": {
+      "browser_ip": null,
+      "user_agent": null,
+      "accept_language": null
+    },
+    "order_status_url": "https://demo-store.example/99000000/orders/synthetictoken10/authenticate?key=synthetictoken10",
+    "buyer_accepts_marketing": false,
+    "note": null,
+    "note_attributes": [],
+    "discount_codes": [],
+    "line_items": [
+      {
+        "id": 960000000014,
+        "product_id": 880000000002,
+        "variant_id": 870000000002,
+        "sku": "DEMO-TRL-02",
+        "title": "Trail Runner Sneaker",
+        "variant_title": "42 / Slate",
+        "vendor": "Demo Goods Co.",
+        "quantity": 1,
+        "price": "129.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "129.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "176.73",
+            "currency_code": "CAD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "CAD"
+          }
+        },
+        "discount_allocations": []
+      },
+      {
+        "id": 960000000015,
+        "product_id": 880000000003,
+        "variant_id": 870000000003,
+        "sku": "DEMO-BNE-03",
+        "title": "Wool Beanie",
+        "variant_title": "One size / Rust",
+        "vendor": "Demo Goods Co.",
+        "quantity": 1,
+        "price": "24.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "24.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "32.88",
+            "currency_code": "CAD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "CAD"
+          }
+        },
+        "discount_allocations": []
+      }
+    ],
+    "subtotal_price": "153.00",
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "153.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "209.61",
+        "currency_code": "CAD"
+      }
+    },
+    "current_subtotal_price": "153.00",
+    "current_subtotal_price_set": {
+      "shop_money": {
+        "amount": "153.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "209.61",
+        "currency_code": "CAD"
+      }
+    },
+    "total_discounts": "0.00",
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "CAD"
+      }
+    },
+    "total_tax": "12.24",
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "12.24",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "16.77",
+        "currency_code": "CAD"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "9.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "12.33",
+        "currency_code": "CAD"
+      }
+    },
+    "total_price": "174.24",
+    "total_price_set": {
+      "shop_money": {
+        "amount": "174.24",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "238.71",
+        "currency_code": "CAD"
+      }
+    },
+    "customer": {
+      "id": 950000000010,
+      "email": "buyer10@example.com"
+    },
+    "refunds": []
+  },
+  "graphql": {
+    "sourceName": "synthetic_ai_channel_source",
+    "attribution": {
+      "handle": "synthetic-meta",
+      "displayName": "Meta"
+    },
+    "app": null,
+    "publication": null,
+    "customerJourneySummary": {
+      "ready": true,
+      "lastVisit": null
+    }
+  }
+}

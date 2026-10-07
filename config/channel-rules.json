@@ -1,0 +1,248 @@
+{
+  "_about": "Channel rules, evaluated top to bottom; the first match sets the label. confirmed=true only where a primary source documents that this signal value marks the channel. As of 2026-10-02 no Shopify page documents the attribution, app, publication or sourceName values that orders from Shopify's AI channels carry, so every rule that reads those fields is unconfirmed. Replace the patterns with the values seen on the store's real orders.",
+  "version": "2026-10-02",
+  "direct_checkout_needs_no_storefront_session": true,
+  "_direct_checkout_note": "When a rule says checkout=direct but the order shows a storefront session (landing_site, captured cart attributes or a customer-journey visit), the order is treated as store checkout. Shopify sends buyers outside the direct-checkout countries to the online store instead.",
+  "rules": [
+    {
+      "id": "google-ai-order-source",
+      "channel": "google_ai",
+      "checkout": "direct",
+      "confidence": "medium",
+      "confirmed": false,
+      "status": "unconfirmed: verify on the store's real orders before trusting the label",
+      "basis": "Shopify says AI-channel orders show in the admin with channel or referrer attribution, and that Order.attribution, Order.app and Order.publication identify the order source. No Shopify page shows the value a Google AI Mode or Gemini order carries. The pattern follows the channel name in Shopify Help ('Google AI Mode and Gemini'); a bare 'google' is avoided so Google & YouTube channel orders are not swept in.",
+      "sources": [
+        "https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts",
+        "https://shopify.dev/docs/api/admin-graphql/latest/objects/Order"
+      ],
+      "any": [
+        {
+          "fields": ["attribution.handle", "attribution.display_name", "app.name", "publication.title", "source_name"],
+          "op": "matches",
+          "pattern": "gemini|ai[ _-]?mode"
+        }
+      ]
+    },
+    {
+      "id": "copilot-order-source",
+      "channel": "copilot",
+      "checkout": "direct",
+      "confidence": "medium",
+      "confirmed": false,
+      "status": "unconfirmed: verify on the store's real orders before trusting the label",
+      "basis": "Same gap as above: Shopify does not document the attribution, app, publication or sourceName value of a Microsoft Copilot direct-checkout order. The pattern follows the channel name in Shopify Help.",
+      "sources": [
+        "https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts/microsoft",
+        "https://shopify.dev/docs/api/admin-graphql/latest/objects/Order"
+      ],
+      "any": [
+        {
+          "fields": ["attribution.handle", "attribution.display_name", "app.name", "publication.title", "source_name"],
+          "op": "matches",
+          "pattern": "copilot"
+        }
+      ]
+    },
+    {
+      "id": "meta-ai-order-source",
+      "channel": "meta_ai",
+      "checkout": "direct",
+      "confidence": "medium",
+      "confirmed": false,
+      "status": "unconfirmed: verify on the store's real orders before trusting the label",
+      "basis": "Shopify says Meta direct-checkout orders are 'attributed to Meta' and shown like any other sales channel, but not which field value carries it. The pattern matches an exact 'Meta', 'Meta AI' or 'Muse'.",
+      "sources": [
+        "https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts/meta"
+      ],
+      "any": [
+        {
+          "fields": ["attribution.handle", "attribution.display_name", "app.name", "publication.title", "source_name"],
+          "op": "matches",
+          "pattern": "^meta$|^meta[ _-]ai\\b|\\bmuse\\b"
+        }
+      ]
+    },
+    {
+      "id": "meta-sales-channel-app",
+      "channel": "meta_ai",
+      "checkout": "unknown",
+      "confidence": "low",
+      "confirmed": false,
+      "status": "unconfirmed: verify on the store's real orders before trusting the label",
+      "basis": "An order credited to the Facebook & Instagram app could be a Meta AI direct-checkout order or something else. Meta moved Facebook and Instagram Shops to website checkout in September 2025, so check real orders before trusting this label. Checkout type is left unknown on purpose.",
+      "sources": [
+        "https://www.facebook.com/business/help/1314349509894768"
+      ],
+      "any": [
+        {
+          "fields": ["attribution.handle", "attribution.display_name", "app.name", "publication.title"],
+          "op": "matches",
+          "pattern": "facebook|instagram"
+        }
+      ]
+    },
+    {
+      "id": "shop-order-source",
+      "channel": "shop",
+      "checkout": "unknown",
+      "confidence": "medium",
+      "confirmed": false,
+      "status": "unconfirmed: verify on the store's real orders before trusting the label",
+      "basis": "Shopify lists Shop as its own agentic channel. No source read for this demo gives the field value of a Shop order or says whether web pixels fire on it, so checkout type is unknown.",
+      "sources": [
+        "https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts/agentic-home"
+      ],
+      "any": [
+        {
+          "fields": ["attribution.handle", "attribution.display_name", "app.name", "publication.title"],
+          "op": "matches",
+          "pattern": "^shop$"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt-order-source",
+      "channel": "chatgpt",
+      "checkout": "store",
+      "confidence": "medium",
+      "confirmed": false,
+      "status": "unconfirmed: verify on the store's real orders before trusting the label",
+      "basis": "Shopify Help: ChatGPT has no direct checkout; buyers finish on the store's own checkout. Whether Shopify then writes a ChatGPT value into Order.attribution, app, publication or sourceName is not documented.",
+      "sources": [
+        "https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts/chatgpt"
+      ],
+      "any": [
+        {
+          "fields": ["attribution.handle", "attribution.display_name", "app.name", "publication.title", "source_name"],
+          "op": "matches",
+          "pattern": "chatgpt|openai"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt-ads-oppref",
+      "channel": "chatgpt",
+      "checkout": "store",
+      "confidence": "high",
+      "confirmed": true,
+      "basis": "OpenAI appends its click reference oppref to ChatGPT ad landing URLs; the pixel stores it in the __oppref cookie.",
+      "sources": [
+        "https://help.openai.com/en/articles/20001409-conversion-measurement",
+        "https://developers.openai.com/ads/measurement-pixel"
+      ],
+      "any": [{ "field": "click_ids.oppref", "op": "present" }]
+    },
+    {
+      "id": "chatgpt-utm-source",
+      "channel": "chatgpt",
+      "checkout": "store",
+      "confidence": "high",
+      "confirmed": true,
+      "basis": "OpenAI: ChatGPT automatically includes utm_source=chatgpt.com in referral URLs. Documented for ChatGPT search referrals; whether shopping click-outs always carry it is not documented, so its absence does not rule ChatGPT out.",
+      "sources": [
+        "https://help.openai.com/en/articles/12627856-publishers-and-developers-faq"
+      ],
+      "any": [{ "field": "utm.source", "op": "equals", "value": "chatgpt.com" }]
+    },
+    {
+      "id": "chatgpt-referrer",
+      "channel": "chatgpt",
+      "checkout": "store",
+      "confidence": "medium",
+      "confirmed": false,
+      "status": "unconfirmed: verify on the store's real orders before trusting the label",
+      "basis": "Referrer host of the ChatGPT web app. No source documents the referrer an order carries; in-app browsers can also drop it.",
+      "sources": [],
+      "any": [{ "field": "referrer_host", "op": "host_in", "values": ["chatgpt.com", "chat.openai.com"] }]
+    },
+    {
+      "id": "gemini-referrer",
+      "channel": "google_ai",
+      "checkout": "store",
+      "confidence": "medium",
+      "confirmed": false,
+      "status": "unconfirmed: verify on the store's real orders before trusting the label",
+      "basis": "Referrer host of the Gemini web app. AI Mode clicks come from google.com and cannot be told apart from search by referrer (GA4 counts AI Mode as Organic Search), so they are not labelled here.",
+      "sources": [
+        "https://support.google.com/analytics/answer/9756891"
+      ],
+      "any": [{ "field": "referrer_host", "op": "host_in", "values": ["gemini.google.com"] }]
+    },
+    {
+      "id": "copilot-referrer",
+      "channel": "copilot",
+      "checkout": "store",
+      "confidence": "medium",
+      "confirmed": false,
+      "status": "unconfirmed: verify on the store's real orders before trusting the label",
+      "basis": "Referrer hosts of Copilot on the web (Microsoft names Copilot.com as a Copilot Checkout surface). The referrer an order carries is not documented.",
+      "sources": [
+        "https://about.ads.microsoft.com/en/solutions/technology/agentic-commerce"
+      ],
+      "any": [{ "field": "referrer_host", "op": "host_in", "values": ["copilot.microsoft.com", "copilot.com"] }]
+    },
+    {
+      "id": "meta-ai-referrer",
+      "channel": "meta_ai",
+      "checkout": "store",
+      "confidence": "medium",
+      "confirmed": false,
+      "status": "unconfirmed: verify on the store's real orders before trusting the label",
+      "basis": "Referrer host of the Meta AI web app. Meta's Muse help also describes Muse buying on merchant sites in a browser, so a Muse order can arrive as a normal store order.",
+      "sources": [
+        "https://www.meta.com/help/artificial-intelligence/1436362127544482/"
+      ],
+      "any": [{ "field": "referrer_host", "op": "host_in", "values": ["meta.ai"] }]
+    },
+    {
+      "id": "shop-referrer",
+      "channel": "shop",
+      "checkout": "store",
+      "confidence": "medium",
+      "confirmed": false,
+      "status": "unconfirmed: verify on the store's real orders before trusting the label",
+      "basis": "Shop's web experience moved from shop.app to shop.com on 29 September 2026; both hosts are kept.",
+      "sources": [
+        "https://changelog.shopify.com/posts/shop-is-now-at-shop-com"
+      ],
+      "any": [{ "field": "referrer_host", "op": "host_in", "values": ["shop.app", "shop.com"] }]
+    },
+    {
+      "id": "agentic-commerce-utm",
+      "channel": "other_agent",
+      "checkout": "store",
+      "confidence": "low",
+      "confirmed": false,
+      "status": "unconfirmed: verify on the store's real orders before trusting the label",
+      "basis": "Shopify's Checkout MCP docs let an agent append UTM tags to the checkout link; their example uses utm_medium=agentic_commerce. That value is illustrative, not what any named AI channel is documented to send.",
+      "sources": [
+        "https://shopify.dev/docs/agents/carts-and-checkout/checkout-mcp"
+      ],
+      "any": [{ "field": "utm.medium", "op": "equals", "value": "agentic_commerce" }]
+    },
+    {
+      "id": "other-ai-referrer",
+      "channel": "other_agent",
+      "checkout": "store",
+      "confidence": "medium",
+      "confirmed": false,
+      "status": "unconfirmed: verify on the store's real orders before trusting the label",
+      "basis": "Referrer hosts of AI assistants outside the four channels Shopify lists. Extend the list as needed.",
+      "sources": [],
+      "any": [{ "field": "referrer_host", "op": "host_in", "values": ["perplexity.ai", "claude.ai"] }]
+    },
+    {
+      "id": "online-store-web",
+      "channel": "web",
+      "checkout": "store",
+      "confidence": "medium",
+      "confirmed": true,
+      "basis": "Shopify documents sourceName values such as 'web' for orders from the online store. Reached only when no AI rule above matched.",
+      "sources": [
+        "https://shopify.dev/docs/api/admin-graphql/latest/objects/Order"
+      ],
+      "any": [{ "field": "source_name", "op": "equals", "value": "web" }]
+    }
+  ]
+}

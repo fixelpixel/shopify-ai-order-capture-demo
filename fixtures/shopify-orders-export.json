@@ -1,0 +1,4139 @@
+[
+  {
+    "id": 990000000101,
+    "admin_graphql_api_id": "gid://shopify/Order/990000000101",
+    "name": "#D1001",
+    "email": "buyer01@example.com",
+    "created_at": "2026-09-26T14:05:00Z",
+    "processed_at": "2026-09-26T14:05:00Z",
+    "updated_at": "2026-09-26T14:05:00Z",
+    "test": false,
+    "currency": "USD",
+    "presentment_currency": "USD",
+    "financial_status": "paid",
+    "source_name": "web",
+    "app_id": null,
+    "landing_site": "/products/linen-shirt?gclid=SYNTH-GCLID-0001&utm_source=google&utm_medium=cpc",
+    "referring_site": "https://www.google.com/",
+    "browser_ip": "203.0.113.1",
+    "client_details": {
+      "browser_ip": "203.0.113.1",
+      "user_agent": "Mozilla/5.0 (synthetic demo browser)",
+      "accept_language": "en-US"
+    },
+    "order_status_url": "https://demo-store.example/99000000/orders/synthetictoken01/authenticate?key=synthetictoken01",
+    "buyer_accepts_marketing": false,
+    "note": null,
+    "note_attributes": [
+      {
+        "name": "_ga",
+        "value": "GA1.1.1000001111.1758800100"
+      },
+      {
+        "name": "_fbp",
+        "value": "fb.1.1758890000000.1000000001"
+      },
+      {
+        "name": "_gclid",
+        "value": "SYNTH-GCLID-0001"
+      },
+      {
+        "name": "_consent_marketing",
+        "value": "granted"
+      }
+    ],
+    "discount_codes": [
+      {
+        "code": "WELCOME10",
+        "amount": "5.90",
+        "type": "percentage"
+      }
+    ],
+    "line_items": [
+      {
+        "id": 960000000001,
+        "product_id": 880000000001,
+        "variant_id": 870000000001,
+        "sku": "DEMO-LIN-01",
+        "title": "Linen Shirt",
+        "variant_title": "M / Sand",
+        "vendor": "Demo Goods Co.",
+        "quantity": 1,
+        "price": "59.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "59.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "59.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount": "5.90",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "5.90",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "5.90",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": [
+          {
+            "amount": "5.90",
+            "amount_set": {
+              "shop_money": {
+                "amount": "5.90",
+                "currency_code": "USD"
+              },
+              "presentment_money": {
+                "amount": "5.90",
+                "currency_code": "USD"
+              }
+            },
+            "discount_application_index": 0
+          }
+        ]
+      },
+      {
+        "id": 960000000002,
+        "product_id": 880000000003,
+        "variant_id": 870000000003,
+        "sku": "DEMO-BNE-03",
+        "title": "Wool Beanie",
+        "variant_title": "One size / Rust",
+        "vendor": "Demo Goods Co.",
+        "quantity": 1,
+        "price": "24.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "24.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "24.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": []
+      }
+    ],
+    "subtotal_price": "77.10",
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "77.10",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "77.10",
+        "currency_code": "USD"
+      }
+    },
+    "current_subtotal_price": "77.10",
+    "current_subtotal_price_set": {
+      "shop_money": {
+        "amount": "77.10",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "77.10",
+        "currency_code": "USD"
+      }
+    },
+    "total_discounts": "5.90",
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "5.90",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "5.90",
+        "currency_code": "USD"
+      }
+    },
+    "total_tax": "6.17",
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "6.17",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "6.17",
+        "currency_code": "USD"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "7.50",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "7.50",
+        "currency_code": "USD"
+      }
+    },
+    "total_price": "90.77",
+    "total_price_set": {
+      "shop_money": {
+        "amount": "90.77",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "90.77",
+        "currency_code": "USD"
+      }
+    },
+    "customer": {
+      "id": 950000000001,
+      "email": "buyer01@example.com"
+    },
+    "refunds": [],
+    "graphql": {
+      "sourceName": "web",
+      "attribution": null,
+      "app": {
+        "id": "gid://shopify/App/100000001",
+        "name": "Online Store"
+      },
+      "publication": null,
+      "customerJourneySummary": {
+        "ready": true,
+        "lastVisit": {
+          "source": "direct",
+          "referrerUrl": "https://www.google.com/",
+          "landingPage": "https://demo-store.example/products/linen-shirt?gclid=SYNTH-GCLID-0001&utm_source=google&utm_medium=cpc",
+          "utmParameters": null
+        }
+      }
+    }
+  },
+  {
+    "id": 990000000102,
+    "admin_graphql_api_id": "gid://shopify/Order/990000000102",
+    "name": "#D1002",
+    "email": "buyer02@example.com",
+    "created_at": "2026-09-26T18:20:00Z",
+    "processed_at": "2026-09-26T18:20:00Z",
+    "updated_at": "2026-09-26T18:20:00Z",
+    "test": false,
+    "currency": "USD",
+    "presentment_currency": "USD",
+    "financial_status": "paid",
+    "source_name": "web",
+    "app_id": null,
+    "landing_site": "/",
+    "referring_site": null,
+    "browser_ip": "203.0.113.2",
+    "client_details": {
+      "browser_ip": "203.0.113.2",
+      "user_agent": "Mozilla/5.0 (synthetic demo browser)",
+      "accept_language": "en-US"
+    },
+    "order_status_url": "https://demo-store.example/99000000/orders/synthetictoken02/authenticate?key=synthetictoken02",
+    "buyer_accepts_marketing": false,
+    "note": null,
+    "note_attributes": [],
+    "discount_codes": [],
+    "line_items": [
+      {
+        "id": 960000000003,
+        "product_id": 880000000005,
+        "variant_id": 870000000005,
+        "sku": "DEMO-MUG-05",
+        "title": "Ceramic Mug",
+        "variant_title": "Speckled",
+        "vendor": "Demo Goods Co.",
+        "quantity": 2,
+        "price": "18.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "18.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "18.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": []
+      }
+    ],
+    "subtotal_price": "36.00",
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "36.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "36.00",
+        "currency_code": "USD"
+      }
+    },
+    "current_subtotal_price": "36.00",
+    "current_subtotal_price_set": {
+      "shop_money": {
+        "amount": "36.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "36.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_discounts": "0.00",
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_tax": "2.88",
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "2.88",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "2.88",
+        "currency_code": "USD"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_price": "38.88",
+    "total_price_set": {
+      "shop_money": {
+        "amount": "38.88",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "38.88",
+        "currency_code": "USD"
+      }
+    },
+    "customer": {
+      "id": 950000000002,
+      "email": "buyer02@example.com"
+    },
+    "refunds": [],
+    "graphql": {
+      "sourceName": "web",
+      "attribution": null,
+      "app": {
+        "id": "gid://shopify/App/100000001",
+        "name": "Online Store"
+      },
+      "publication": null,
+      "customerJourneySummary": {
+        "ready": true,
+        "lastVisit": {
+          "source": "direct",
+          "referrerUrl": null,
+          "landingPage": "https://demo-store.example/",
+          "utmParameters": null
+        }
+      }
+    }
+  },
+  {
+    "id": 990000000103,
+    "admin_graphql_api_id": "gid://shopify/Order/990000000103",
+    "name": "#D1003",
+    "email": "buyer03@example.com",
+    "created_at": "2026-09-27T09:12:00Z",
+    "processed_at": "2026-09-27T09:12:00Z",
+    "updated_at": "2026-09-27T09:12:00Z",
+    "test": false,
+    "currency": "USD",
+    "presentment_currency": "USD",
+    "financial_status": "paid",
+    "source_name": "web",
+    "app_id": null,
+    "landing_site": "/products/trail-runner?utm_source=chatgpt.com",
+    "referring_site": "https://chatgpt.com/",
+    "browser_ip": "203.0.113.3",
+    "client_details": {
+      "browser_ip": "203.0.113.3",
+      "user_agent": "Mozilla/5.0 (synthetic demo browser)",
+      "accept_language": "en-US"
+    },
+    "order_status_url": "https://demo-store.example/99000000/orders/synthetictoken03/authenticate?key=synthetictoken03",
+    "buyer_accepts_marketing": false,
+    "note": null,
+    "note_attributes": [
+      {
+        "name": "_ga",
+        "value": "GA1.1.1000003333.1758800300"
+      }
+    ],
+    "discount_codes": [],
+    "line_items": [
+      {
+        "id": 960000000004,
+        "product_id": 880000000002,
+        "variant_id": 870000000002,
+        "sku": "DEMO-TRL-02",
+        "title": "Trail Runner Sneaker",
+        "variant_title": "42 / Slate",
+        "vendor": "Demo Goods Co.",
+        "quantity": 1,
+        "price": "129.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "129.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "129.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": []
+      }
+    ],
+    "subtotal_price": "129.00",
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "129.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "129.00",
+        "currency_code": "USD"
+      }
+    },
+    "current_subtotal_price": "129.00",
+    "current_subtotal_price_set": {
+      "shop_money": {
+        "amount": "129.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "129.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_discounts": "0.00",
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_tax": "10.32",
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "10.32",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "10.32",
+        "currency_code": "USD"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_price": "139.32",
+    "total_price_set": {
+      "shop_money": {
+        "amount": "139.32",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "139.32",
+        "currency_code": "USD"
+      }
+    },
+    "customer": {
+      "id": 950000000003,
+      "email": "buyer03@example.com"
+    },
+    "refunds": [],
+    "graphql": {
+      "sourceName": "web",
+      "attribution": null,
+      "app": {
+        "id": "gid://shopify/App/100000001",
+        "name": "Online Store"
+      },
+      "publication": null,
+      "customerJourneySummary": {
+        "ready": true,
+        "lastVisit": {
+          "source": "direct",
+          "referrerUrl": "https://chatgpt.com/",
+          "landingPage": "https://demo-store.example/products/trail-runner?utm_source=chatgpt.com",
+          "utmParameters": null
+        }
+      }
+    }
+  },
+  {
+    "id": 990000000104,
+    "admin_graphql_api_id": "gid://shopify/Order/990000000104",
+    "name": "#D1004",
+    "email": "buyer04@example.com",
+    "created_at": "2026-09-27T16:40:00Z",
+    "processed_at": "2026-09-27T16:40:00Z",
+    "updated_at": "2026-09-27T16:40:00Z",
+    "test": false,
+    "currency": "USD",
+    "presentment_currency": "USD",
+    "financial_status": "paid",
+    "source_name": "web",
+    "app_id": null,
+    "landing_site": "/products/trail-runner?oppref=gAAAAASYNTHETIC0004&utm_source=openai&utm_medium=paid",
+    "referring_site": null,
+    "browser_ip": "203.0.113.4",
+    "client_details": {
+      "browser_ip": "203.0.113.4",
+      "user_agent": "Mozilla/5.0 (synthetic demo browser)",
+      "accept_language": "en-US"
+    },
+    "order_status_url": "https://demo-store.example/99000000/orders/synthetictoken04/authenticate?key=synthetictoken04",
+    "buyer_accepts_marketing": false,
+    "note": null,
+    "note_attributes": [
+      {
+        "name": "_ga",
+        "value": "GA1.1.1000004444.1758800400"
+      },
+      {
+        "name": "__oppref",
+        "value": "gAAAAASYNTHETIC0004"
+      },
+      {
+        "name": "__obref",
+        "value": "5f0c6c1e-0000-4000-8000-000000000004"
+      },
+      {
+        "name": "_consent_marketing",
+        "value": "granted"
+      }
+    ],
+    "discount_codes": [],
+    "line_items": [
+      {
+        "id": 960000000005,
+        "product_id": 880000000002,
+        "variant_id": 870000000002,
+        "sku": "DEMO-TRL-02",
+        "title": "Trail Runner Sneaker",
+        "variant_title": "42 / Slate",
+        "vendor": "Demo Goods Co.",
+        "quantity": 1,
+        "price": "129.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "129.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "129.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": []
+      },
+      {
+        "id": 960000000006,
+        "product_id": 880000000004,
+        "variant_id": 870000000004,
+        "sku": "DEMO-TOT-04",
+        "title": "Canvas Tote",
+        "variant_title": null,
+        "vendor": "Demo Goods Co.",
+        "quantity": 1,
+        "price": "32.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "32.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "32.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": []
+      }
+    ],
+    "subtotal_price": "161.00",
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "161.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "161.00",
+        "currency_code": "USD"
+      }
+    },
+    "current_subtotal_price": "161.00",
+    "current_subtotal_price_set": {
+      "shop_money": {
+        "amount": "161.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "161.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_discounts": "0.00",
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_tax": "12.88",
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "12.88",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "12.88",
+        "currency_code": "USD"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_price": "173.88",
+    "total_price_set": {
+      "shop_money": {
+        "amount": "173.88",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "173.88",
+        "currency_code": "USD"
+      }
+    },
+    "customer": {
+      "id": 950000000004,
+      "email": "buyer04@example.com"
+    },
+    "refunds": [],
+    "graphql": {
+      "sourceName": "web",
+      "attribution": null,
+      "app": {
+        "id": "gid://shopify/App/100000001",
+        "name": "Online Store"
+      },
+      "publication": null,
+      "customerJourneySummary": {
+        "ready": true,
+        "lastVisit": {
+          "source": "direct",
+          "referrerUrl": null,
+          "landingPage": "https://demo-store.example/products/trail-runner?oppref=gAAAAASYNTHETIC0004&utm_source=openai&utm_medium=paid",
+          "utmParameters": null
+        }
+      }
+    }
+  },
+  {
+    "id": 990000000105,
+    "admin_graphql_api_id": "gid://shopify/Order/990000000105",
+    "name": "#D1005",
+    "email": "buyer05@example.com",
+    "created_at": "2026-09-28T11:03:00Z",
+    "processed_at": "2026-09-28T11:03:00Z",
+    "updated_at": "2026-09-28T11:03:00Z",
+    "test": false,
+    "currency": "USD",
+    "presentment_currency": "USD",
+    "financial_status": "paid",
+    "source_name": "web",
+    "app_id": null,
+    "landing_site": "/collections/sale",
+    "referring_site": "https://chatgpt.com/",
+    "browser_ip": "203.0.113.5",
+    "client_details": {
+      "browser_ip": "203.0.113.5",
+      "user_agent": "Mozilla/5.0 (synthetic demo browser)",
+      "accept_language": "en-US"
+    },
+    "order_status_url": "https://demo-store.example/99000000/orders/synthetictoken05/authenticate?key=synthetictoken05",
+    "buyer_accepts_marketing": false,
+    "note": null,
+    "note_attributes": [],
+    "discount_codes": [],
+    "line_items": [
+      {
+        "id": 960000000007,
+        "product_id": 880000000003,
+        "variant_id": 870000000003,
+        "sku": "DEMO-BNE-03",
+        "title": "Wool Beanie",
+        "variant_title": "One size / Rust",
+        "vendor": "Demo Goods Co.",
+        "quantity": 2,
+        "price": "24.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "24.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "24.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": []
+      }
+    ],
+    "subtotal_price": "48.00",
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "48.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "48.00",
+        "currency_code": "USD"
+      }
+    },
+    "current_subtotal_price": "48.00",
+    "current_subtotal_price_set": {
+      "shop_money": {
+        "amount": "48.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "48.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_discounts": "0.00",
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_tax": "3.84",
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "3.84",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "3.84",
+        "currency_code": "USD"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_price": "51.84",
+    "total_price_set": {
+      "shop_money": {
+        "amount": "51.84",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "51.84",
+        "currency_code": "USD"
+      }
+    },
+    "customer": {
+      "id": 950000000005,
+      "email": "buyer05@example.com"
+    },
+    "refunds": [],
+    "graphql": {
+      "sourceName": "web",
+      "attribution": null,
+      "app": {
+        "id": "gid://shopify/App/100000001",
+        "name": "Online Store"
+      },
+      "publication": null,
+      "customerJourneySummary": {
+        "ready": true,
+        "lastVisit": {
+          "source": "direct",
+          "referrerUrl": "https://chatgpt.com/",
+          "landingPage": "https://demo-store.example/collections/sale",
+          "utmParameters": null
+        }
+      }
+    }
+  },
+  {
+    "id": 990000000106,
+    "admin_graphql_api_id": "gid://shopify/Order/990000000106",
+    "name": "#D1006",
+    "email": "buyer06@example.com",
+    "created_at": "2026-09-28T15:30:00Z",
+    "processed_at": "2026-09-28T15:30:00Z",
+    "updated_at": "2026-09-28T15:30:00Z",
+    "test": false,
+    "currency": "USD",
+    "presentment_currency": "USD",
+    "financial_status": "paid",
+    "source_name": "synthetic_ai_channel_source",
+    "app_id": null,
+    "landing_site": null,
+    "referring_site": null,
+    "browser_ip": null,
+    "client_details": {
+      "browser_ip": null,
+      "user_agent": null,
+      "accept_language": null
+    },
+    "order_status_url": "https://demo-store.example/99000000/orders/synthetictoken06/authenticate?key=synthetictoken06",
+    "buyer_accepts_marketing": false,
+    "note": null,
+    "note_attributes": [],
+    "discount_codes": [],
+    "line_items": [
+      {
+        "id": 960000000008,
+        "product_id": 880000000001,
+        "variant_id": 870000000001,
+        "sku": "DEMO-LIN-01",
+        "title": "Linen Shirt",
+        "variant_title": "M / Sand",
+        "vendor": "Demo Goods Co.",
+        "quantity": 2,
+        "price": "59.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "59.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "59.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": []
+      }
+    ],
+    "subtotal_price": "118.00",
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "118.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "118.00",
+        "currency_code": "USD"
+      }
+    },
+    "current_subtotal_price": "118.00",
+    "current_subtotal_price_set": {
+      "shop_money": {
+        "amount": "118.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "118.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_discounts": "0.00",
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_tax": "9.44",
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "9.44",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "9.44",
+        "currency_code": "USD"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_price": "127.44",
+    "total_price_set": {
+      "shop_money": {
+        "amount": "127.44",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "127.44",
+        "currency_code": "USD"
+      }
+    },
+    "customer": {
+      "id": 950000000006,
+      "email": "buyer06@example.com"
+    },
+    "refunds": [],
+    "graphql": {
+      "sourceName": "synthetic_ai_channel_source",
+      "attribution": {
+        "handle": "synthetic-google-ai-mode",
+        "displayName": "Google AI Mode (synthetic label)"
+      },
+      "app": null,
+      "publication": null,
+      "customerJourneySummary": {
+        "ready": true,
+        "lastVisit": null
+      }
+    }
+  },
+  {
+    "id": 990000000107,
+    "admin_graphql_api_id": "gid://shopify/Order/990000000107",
+    "name": "#D1007",
+    "email": "buyer07@example.com",
+    "created_at": "2026-09-29T10:00:00Z",
+    "processed_at": "2026-09-29T10:00:00Z",
+    "updated_at": "2026-09-29T10:00:00Z",
+    "test": false,
+    "currency": "USD",
+    "presentment_currency": "USD",
+    "financial_status": "paid",
+    "source_name": "synthetic_ai_channel_source",
+    "app_id": null,
+    "landing_site": null,
+    "referring_site": null,
+    "browser_ip": null,
+    "client_details": {
+      "browser_ip": null,
+      "user_agent": null,
+      "accept_language": null
+    },
+    "order_status_url": "https://demo-store.example/99000000/orders/synthetictoken07/authenticate?key=synthetictoken07",
+    "buyer_accepts_marketing": false,
+    "note": null,
+    "note_attributes": [],
+    "discount_codes": [],
+    "line_items": [
+      {
+        "id": 960000000009,
+        "product_id": 880000000004,
+        "variant_id": 870000000004,
+        "sku": "DEMO-TOT-04",
+        "title": "Canvas Tote",
+        "variant_title": null,
+        "vendor": "Demo Goods Co.",
+        "quantity": 1,
+        "price": "32.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "32.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "32.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": []
+      },
+      {
+        "id": 960000000010,
+        "product_id": 880000000005,
+        "variant_id": 870000000005,
+        "sku": "DEMO-MUG-05",
+        "title": "Ceramic Mug",
+        "variant_title": "Speckled",
+        "vendor": "Demo Goods Co.",
+        "quantity": 1,
+        "price": "18.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "18.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "18.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": []
+      }
+    ],
+    "subtotal_price": "50.00",
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "50.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "50.00",
+        "currency_code": "USD"
+      }
+    },
+    "current_subtotal_price": "50.00",
+    "current_subtotal_price_set": {
+      "shop_money": {
+        "amount": "50.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "50.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_discounts": "0.00",
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_tax": "4.00",
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "4.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "4.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_price": "54.00",
+    "total_price_set": {
+      "shop_money": {
+        "amount": "54.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "54.00",
+        "currency_code": "USD"
+      }
+    },
+    "customer": {
+      "id": 950000000007,
+      "email": "buyer07@example.com"
+    },
+    "refunds": [],
+    "graphql": {
+      "sourceName": "synthetic_ai_channel_source",
+      "attribution": null,
+      "app": {
+        "id": "gid://shopify/App/100000101",
+        "name": "Gemini (synthetic app name)"
+      },
+      "publication": {
+        "id": "gid://shopify/Publication/100000101",
+        "catalog": {
+          "title": "Synthetic Gemini catalog"
+        }
+      },
+      "customerJourneySummary": {
+        "ready": true,
+        "lastVisit": null
+      }
+    }
+  },
+  {
+    "id": 990000000108,
+    "admin_graphql_api_id": "gid://shopify/Order/990000000108",
+    "name": "#D1008",
+    "email": "buyer08@example.com",
+    "created_at": "2026-09-29T13:45:00Z",
+    "processed_at": "2026-09-29T13:45:00Z",
+    "updated_at": "2026-09-29T13:45:00Z",
+    "test": false,
+    "currency": "USD",
+    "presentment_currency": "USD",
+    "financial_status": "paid",
+    "source_name": "synthetic_ai_channel_source",
+    "app_id": null,
+    "landing_site": null,
+    "referring_site": null,
+    "browser_ip": null,
+    "client_details": {
+      "browser_ip": null,
+      "user_agent": null,
+      "accept_language": null
+    },
+    "order_status_url": "https://demo-store.example/99000000/orders/synthetictoken08/authenticate?key=synthetictoken08",
+    "buyer_accepts_marketing": false,
+    "note": null,
+    "note_attributes": [],
+    "discount_codes": [],
+    "line_items": [
+      {
+        "id": 960000000011,
+        "product_id": 880000000002,
+        "variant_id": 870000000002,
+        "sku": "DEMO-TRL-02",
+        "title": "Trail Runner Sneaker",
+        "variant_title": "42 / Slate",
+        "vendor": "Demo Goods Co.",
+        "quantity": 1,
+        "price": "129.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "129.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "129.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": []
+      }
+    ],
+    "subtotal_price": "129.00",
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "129.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "129.00",
+        "currency_code": "USD"
+      }
+    },
+    "current_subtotal_price": "129.00",
+    "current_subtotal_price_set": {
+      "shop_money": {
+        "amount": "129.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "129.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_discounts": "0.00",
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_tax": "10.32",
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "10.32",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "10.32",
+        "currency_code": "USD"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_price": "139.32",
+    "total_price_set": {
+      "shop_money": {
+        "amount": "139.32",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "139.32",
+        "currency_code": "USD"
+      }
+    },
+    "customer": {
+      "id": 950000000008,
+      "email": "buyer08@example.com"
+    },
+    "refunds": [],
+    "graphql": {
+      "sourceName": "synthetic_ai_channel_source",
+      "attribution": {
+        "handle": "synthetic-microsoft-copilot",
+        "displayName": "Microsoft Copilot (synthetic label)"
+      },
+      "app": null,
+      "publication": null,
+      "customerJourneySummary": {
+        "ready": true,
+        "lastVisit": null
+      }
+    }
+  },
+  {
+    "id": 990000000109,
+    "admin_graphql_api_id": "gid://shopify/Order/990000000109",
+    "name": "#D1009",
+    "email": "buyer09@example.com",
+    "created_at": "2026-09-30T08:10:00Z",
+    "processed_at": "2026-09-30T08:10:00Z",
+    "updated_at": "2026-09-30T08:10:00Z",
+    "test": false,
+    "currency": "USD",
+    "presentment_currency": "USD",
+    "financial_status": "partially_refunded",
+    "source_name": "synthetic_ai_channel_source",
+    "app_id": null,
+    "landing_site": null,
+    "referring_site": null,
+    "browser_ip": null,
+    "client_details": {
+      "browser_ip": null,
+      "user_agent": null,
+      "accept_language": null
+    },
+    "order_status_url": "https://demo-store.example/99000000/orders/synthetictoken09/authenticate?key=synthetictoken09",
+    "buyer_accepts_marketing": false,
+    "note": null,
+    "note_attributes": [],
+    "discount_codes": [],
+    "line_items": [
+      {
+        "id": 960000000012,
+        "product_id": 880000000001,
+        "variant_id": 870000000001,
+        "sku": "DEMO-LIN-01",
+        "title": "Linen Shirt",
+        "variant_title": "M / Sand",
+        "vendor": "Demo Goods Co.",
+        "quantity": 1,
+        "price": "59.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "59.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "59.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": []
+      },
+      {
+        "id": 960000000013,
+        "product_id": 880000000004,
+        "variant_id": 870000000004,
+        "sku": "DEMO-TOT-04",
+        "title": "Canvas Tote",
+        "variant_title": null,
+        "vendor": "Demo Goods Co.",
+        "quantity": 1,
+        "price": "32.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "32.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "32.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": []
+      }
+    ],
+    "subtotal_price": "91.00",
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "91.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "91.00",
+        "currency_code": "USD"
+      }
+    },
+    "current_subtotal_price": "91.00",
+    "current_subtotal_price_set": {
+      "shop_money": {
+        "amount": "91.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "91.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_discounts": "0.00",
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_tax": "7.28",
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "7.28",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "7.28",
+        "currency_code": "USD"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_price": "98.28",
+    "total_price_set": {
+      "shop_money": {
+        "amount": "98.28",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "98.28",
+        "currency_code": "USD"
+      }
+    },
+    "customer": {
+      "id": 950000000009,
+      "email": "buyer09@example.com"
+    },
+    "refunds": [
+      {
+        "id": 940000000009,
+        "order_id": 990000000109,
+        "created_at": "2026-10-01T09:00:00Z",
+        "note": "Synthetic partial refund",
+        "restock": true,
+        "refund_line_items": [
+          {
+            "id": 930000000009,
+            "line_item_id": 960000000013,
+            "quantity": 1,
+            "subtotal": "32.00",
+            "subtotal_set": {
+              "shop_money": {
+                "amount": "32.00",
+                "currency_code": "USD"
+              },
+              "presentment_money": {
+                "amount": "32.00",
+                "currency_code": "USD"
+              }
+            },
+            "total_tax": "2.56",
+            "total_tax_set": {
+              "shop_money": {
+                "amount": "2.56",
+                "currency_code": "USD"
+              },
+              "presentment_money": {
+                "amount": "2.56",
+                "currency_code": "USD"
+              }
+            },
+            "line_item": {
+              "id": 960000000013,
+              "sku": "DEMO-TOT-04",
+              "variant_id": 870000000004,
+              "title": "Canvas Tote"
+            }
+          }
+        ],
+        "transactions": [
+          {
+            "id": 920000000009,
+            "kind": "refund",
+            "status": "success",
+            "amount": "34.56",
+            "currency": "USD",
+            "gateway": "synthetic_gateway"
+          }
+        ]
+      }
+    ],
+    "graphql": {
+      "sourceName": "synthetic_ai_channel_source",
+      "attribution": {
+        "handle": "synthetic-microsoft-copilot",
+        "displayName": "Microsoft Copilot (synthetic label)"
+      },
+      "app": null,
+      "publication": null,
+      "customerJourneySummary": {
+        "ready": true,
+        "lastVisit": null
+      }
+    }
+  },
+  {
+    "id": 990000000110,
+    "admin_graphql_api_id": "gid://shopify/Order/990000000110",
+    "name": "#D1010",
+    "email": "buyer10@example.com",
+    "created_at": "2026-09-30T17:25:00Z",
+    "processed_at": "2026-09-30T17:25:00Z",
+    "updated_at": "2026-09-30T17:25:00Z",
+    "test": false,
+    "currency": "USD",
+    "presentment_currency": "CAD",
+    "financial_status": "paid",
+    "source_name": "synthetic_ai_channel_source",
+    "app_id": null,
+    "landing_site": null,
+    "referring_site": null,
+    "browser_ip": null,
+    "client_details": {
+      "browser_ip": null,
+      "user_agent": null,
+      "accept_language": null
+    },
+    "order_status_url": "https://demo-store.example/99000000/orders/synthetictoken10/authenticate?key=synthetictoken10",
+    "buyer_accepts_marketing": false,
+    "note": null,
+    "note_attributes": [],
+    "discount_codes": [],
+    "line_items": [
+      {
+        "id": 960000000014,
+        "product_id": 880000000002,
+        "variant_id": 870000000002,
+        "sku": "DEMO-TRL-02",
+        "title": "Trail Runner Sneaker",
+        "variant_title": "42 / Slate",
+        "vendor": "Demo Goods Co.",
+        "quantity": 1,
+        "price": "129.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "129.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "176.73",
+            "currency_code": "CAD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "CAD"
+          }
+        },
+        "discount_allocations": []
+      },
+      {
+        "id": 960000000015,
+        "product_id": 880000000003,
+        "variant_id": 870000000003,
+        "sku": "DEMO-BNE-03",
+        "title": "Wool Beanie",
+        "variant_title": "One size / Rust",
+        "vendor": "Demo Goods Co.",
+        "quantity": 1,
+        "price": "24.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "24.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "32.88",
+            "currency_code": "CAD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "CAD"
+          }
+        },
+        "discount_allocations": []
+      }
+    ],
+    "subtotal_price": "153.00",
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "153.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "209.61",
+        "currency_code": "CAD"
+      }
+    },
+    "current_subtotal_price": "153.00",
+    "current_subtotal_price_set": {
+      "shop_money": {
+        "amount": "153.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "209.61",
+        "currency_code": "CAD"
+      }
+    },
+    "total_discounts": "0.00",
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "CAD"
+      }
+    },
+    "total_tax": "12.24",
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "12.24",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "16.77",
+        "currency_code": "CAD"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "9.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "12.33",
+        "currency_code": "CAD"
+      }
+    },
+    "total_price": "174.24",
+    "total_price_set": {
+      "shop_money": {
+        "amount": "174.24",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "238.71",
+        "currency_code": "CAD"
+      }
+    },
+    "customer": {
+      "id": 950000000010,
+      "email": "buyer10@example.com"
+    },
+    "refunds": [],
+    "graphql": {
+      "sourceName": "synthetic_ai_channel_source",
+      "attribution": {
+        "handle": "synthetic-meta",
+        "displayName": "Meta"
+      },
+      "app": null,
+      "publication": null,
+      "customerJourneySummary": {
+        "ready": true,
+        "lastVisit": null
+      }
+    }
+  },
+  {
+    "id": 990000000111,
+    "admin_graphql_api_id": "gid://shopify/Order/990000000111",
+    "name": "#D1011",
+    "email": "buyer11@example.com",
+    "created_at": "2026-10-01T02:15:00Z",
+    "processed_at": "2026-10-01T02:15:00Z",
+    "updated_at": "2026-10-01T02:15:00Z",
+    "test": false,
+    "currency": "USD",
+    "presentment_currency": "MXN",
+    "financial_status": "paid",
+    "source_name": "synthetic_ai_channel_source",
+    "app_id": null,
+    "landing_site": null,
+    "referring_site": null,
+    "browser_ip": null,
+    "client_details": {
+      "browser_ip": null,
+      "user_agent": null,
+      "accept_language": null
+    },
+    "order_status_url": "https://demo-store.example/99000000/orders/synthetictoken11/authenticate?key=synthetictoken11",
+    "buyer_accepts_marketing": false,
+    "note": null,
+    "note_attributes": [],
+    "discount_codes": [],
+    "line_items": [
+      {
+        "id": 960000000016,
+        "product_id": 880000000001,
+        "variant_id": 870000000001,
+        "sku": "DEMO-LIN-01",
+        "title": "Linen Shirt",
+        "variant_title": "M / Sand",
+        "vendor": "Demo Goods Co.",
+        "quantity": 1,
+        "price": "59.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "59.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "1073.80",
+            "currency_code": "MXN"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "MXN"
+          }
+        },
+        "discount_allocations": []
+      }
+    ],
+    "subtotal_price": "59.00",
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "59.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "1073.80",
+        "currency_code": "MXN"
+      }
+    },
+    "current_subtotal_price": "59.00",
+    "current_subtotal_price_set": {
+      "shop_money": {
+        "amount": "59.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "1073.80",
+        "currency_code": "MXN"
+      }
+    },
+    "total_discounts": "0.00",
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "MXN"
+      }
+    },
+    "total_tax": "4.72",
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "4.72",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "85.90",
+        "currency_code": "MXN"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "MXN"
+      }
+    },
+    "total_price": "63.72",
+    "total_price_set": {
+      "shop_money": {
+        "amount": "63.72",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "1159.70",
+        "currency_code": "MXN"
+      }
+    },
+    "customer": {
+      "id": 950000000011,
+      "email": "buyer11@example.com"
+    },
+    "refunds": [],
+    "graphql": {
+      "sourceName": "synthetic_ai_channel_source",
+      "attribution": {
+        "handle": "synthetic-meta-ai",
+        "displayName": "Meta AI (synthetic label)"
+      },
+      "app": null,
+      "publication": null,
+      "customerJourneySummary": {
+        "ready": true,
+        "lastVisit": null
+      }
+    }
+  },
+  {
+    "id": 990000000112,
+    "admin_graphql_api_id": "gid://shopify/Order/990000000112",
+    "name": "#D1012",
+    "email": "buyer12@example.com",
+    "created_at": "2026-10-01T05:40:00Z",
+    "processed_at": "2026-10-01T05:40:00Z",
+    "updated_at": "2026-10-01T05:40:00Z",
+    "test": false,
+    "currency": "USD",
+    "presentment_currency": "USD",
+    "financial_status": "paid",
+    "source_name": "synthetic_ai_channel_source",
+    "app_id": null,
+    "landing_site": null,
+    "referring_site": null,
+    "browser_ip": null,
+    "client_details": {
+      "browser_ip": null,
+      "user_agent": null,
+      "accept_language": null
+    },
+    "order_status_url": "https://demo-store.example/99000000/orders/synthetictoken12/authenticate?key=synthetictoken12",
+    "buyer_accepts_marketing": false,
+    "note": null,
+    "note_attributes": [],
+    "discount_codes": [],
+    "line_items": [
+      {
+        "id": 960000000017,
+        "product_id": 880000000005,
+        "variant_id": 870000000005,
+        "sku": "DEMO-MUG-05",
+        "title": "Ceramic Mug",
+        "variant_title": "Speckled",
+        "vendor": "Demo Goods Co.",
+        "quantity": 3,
+        "price": "18.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "18.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "18.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": []
+      }
+    ],
+    "subtotal_price": "54.00",
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "54.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "54.00",
+        "currency_code": "USD"
+      }
+    },
+    "current_subtotal_price": "54.00",
+    "current_subtotal_price_set": {
+      "shop_money": {
+        "amount": "54.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "54.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_discounts": "0.00",
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_tax": "4.32",
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "4.32",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "4.32",
+        "currency_code": "USD"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_price": "58.32",
+    "total_price_set": {
+      "shop_money": {
+        "amount": "58.32",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "58.32",
+        "currency_code": "USD"
+      }
+    },
+    "customer": {
+      "id": 950000000012,
+      "email": "buyer12@example.com"
+    },
+    "refunds": [],
+    "graphql": {
+      "sourceName": "synthetic_ai_channel_source",
+      "attribution": null,
+      "app": {
+        "id": "gid://shopify/App/100000202",
+        "name": "Facebook & Instagram (synthetic app name)"
+      },
+      "publication": null,
+      "customerJourneySummary": {
+        "ready": true,
+        "lastVisit": null
+      }
+    }
+  },
+  {
+    "id": 990000000113,
+    "admin_graphql_api_id": "gid://shopify/Order/990000000113",
+    "name": "#D1013",
+    "email": "buyer13@example.com",
+    "created_at": "2026-10-01T08:30:00Z",
+    "processed_at": "2026-10-01T08:30:00Z",
+    "updated_at": "2026-10-01T08:30:00Z",
+    "test": false,
+    "currency": "USD",
+    "presentment_currency": "USD",
+    "financial_status": "paid",
+    "source_name": "synthetic_ai_channel_source",
+    "app_id": null,
+    "landing_site": null,
+    "referring_site": null,
+    "browser_ip": null,
+    "client_details": {
+      "browser_ip": null,
+      "user_agent": null,
+      "accept_language": null
+    },
+    "order_status_url": "https://demo-store.example/99000000/orders/synthetictoken13/authenticate?key=synthetictoken13",
+    "buyer_accepts_marketing": false,
+    "note": null,
+    "note_attributes": [],
+    "discount_codes": [],
+    "line_items": [
+      {
+        "id": 960000000018,
+        "product_id": 880000000004,
+        "variant_id": 870000000004,
+        "sku": "DEMO-TOT-04",
+        "title": "Canvas Tote",
+        "variant_title": null,
+        "vendor": "Demo Goods Co.",
+        "quantity": 2,
+        "price": "32.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "32.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "32.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": []
+      }
+    ],
+    "subtotal_price": "64.00",
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "64.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "64.00",
+        "currency_code": "USD"
+      }
+    },
+    "current_subtotal_price": "64.00",
+    "current_subtotal_price_set": {
+      "shop_money": {
+        "amount": "64.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "64.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_discounts": "0.00",
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_tax": "5.12",
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "5.12",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "5.12",
+        "currency_code": "USD"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_price": "69.12",
+    "total_price_set": {
+      "shop_money": {
+        "amount": "69.12",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "69.12",
+        "currency_code": "USD"
+      }
+    },
+    "customer": {
+      "id": 950000000013,
+      "email": "buyer13@example.com"
+    },
+    "refunds": [],
+    "graphql": {
+      "sourceName": "synthetic_ai_channel_source",
+      "attribution": {
+        "handle": "synthetic-shop",
+        "displayName": "Shop"
+      },
+      "app": null,
+      "publication": null,
+      "customerJourneySummary": {
+        "ready": true,
+        "lastVisit": null
+      }
+    }
+  },
+  {
+    "id": 990000000114,
+    "admin_graphql_api_id": "gid://shopify/Order/990000000114",
+    "name": "#D1014",
+    "email": "buyer14@example.com",
+    "created_at": "2026-10-01T12:00:00Z",
+    "processed_at": "2026-10-01T12:00:00Z",
+    "updated_at": "2026-10-01T12:00:00Z",
+    "test": false,
+    "currency": "USD",
+    "presentment_currency": "USD",
+    "financial_status": "paid",
+    "source_name": "web",
+    "app_id": null,
+    "landing_site": "/products/wool-beanie",
+    "referring_site": "https://shop.com/",
+    "browser_ip": "203.0.113.14",
+    "client_details": {
+      "browser_ip": "203.0.113.14",
+      "user_agent": "Mozilla/5.0 (synthetic demo browser)",
+      "accept_language": "en-US"
+    },
+    "order_status_url": "https://demo-store.example/99000000/orders/synthetictoken14/authenticate?key=synthetictoken14",
+    "buyer_accepts_marketing": false,
+    "note": null,
+    "note_attributes": [
+      {
+        "name": "_ga",
+        "value": "GA1.1.1000015554.1758801400"
+      }
+    ],
+    "discount_codes": [],
+    "line_items": [
+      {
+        "id": 960000000019,
+        "product_id": 880000000003,
+        "variant_id": 870000000003,
+        "sku": "DEMO-BNE-03",
+        "title": "Wool Beanie",
+        "variant_title": "One size / Rust",
+        "vendor": "Demo Goods Co.",
+        "quantity": 1,
+        "price": "24.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "24.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "24.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": []
+      }
+    ],
+    "subtotal_price": "24.00",
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "24.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "24.00",
+        "currency_code": "USD"
+      }
+    },
+    "current_subtotal_price": "24.00",
+    "current_subtotal_price_set": {
+      "shop_money": {
+        "amount": "24.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "24.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_discounts": "0.00",
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_tax": "1.92",
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "1.92",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "1.92",
+        "currency_code": "USD"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_price": "25.92",
+    "total_price_set": {
+      "shop_money": {
+        "amount": "25.92",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "25.92",
+        "currency_code": "USD"
+      }
+    },
+    "customer": {
+      "id": 950000000014,
+      "email": "buyer14@example.com"
+    },
+    "refunds": [],
+    "graphql": {
+      "sourceName": "web",
+      "attribution": null,
+      "app": {
+        "id": "gid://shopify/App/100000001",
+        "name": "Online Store"
+      },
+      "publication": null,
+      "customerJourneySummary": {
+        "ready": true,
+        "lastVisit": {
+          "source": "direct",
+          "referrerUrl": "https://shop.com/",
+          "landingPage": "https://demo-store.example/products/wool-beanie",
+          "utmParameters": null
+        }
+      }
+    }
+  },
+  {
+    "id": 990000000115,
+    "admin_graphql_api_id": "gid://shopify/Order/990000000115",
+    "name": "#D1015",
+    "email": "buyer15@example.com",
+    "created_at": "2026-10-01T15:20:00Z",
+    "processed_at": "2026-10-01T15:20:00Z",
+    "updated_at": "2026-10-01T15:20:00Z",
+    "test": false,
+    "currency": "USD",
+    "presentment_currency": "USD",
+    "financial_status": "paid",
+    "source_name": "web",
+    "app_id": null,
+    "landing_site": "/products/canvas-tote",
+    "referring_site": "https://www.perplexity.ai/",
+    "browser_ip": "203.0.113.15",
+    "client_details": {
+      "browser_ip": "203.0.113.15",
+      "user_agent": "Mozilla/5.0 (synthetic demo browser)",
+      "accept_language": "en-US"
+    },
+    "order_status_url": "https://demo-store.example/99000000/orders/synthetictoken15/authenticate?key=synthetictoken15",
+    "buyer_accepts_marketing": false,
+    "note": null,
+    "note_attributes": [
+      {
+        "name": "_ga",
+        "value": "GA1.1.1000016665.1758801500"
+      }
+    ],
+    "discount_codes": [],
+    "line_items": [
+      {
+        "id": 960000000020,
+        "product_id": 880000000004,
+        "variant_id": 870000000004,
+        "sku": "DEMO-TOT-04",
+        "title": "Canvas Tote",
+        "variant_title": null,
+        "vendor": "Demo Goods Co.",
+        "quantity": 1,
+        "price": "32.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "32.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "32.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": []
+      }
+    ],
+    "subtotal_price": "32.00",
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "32.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "32.00",
+        "currency_code": "USD"
+      }
+    },
+    "current_subtotal_price": "32.00",
+    "current_subtotal_price_set": {
+      "shop_money": {
+        "amount": "32.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "32.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_discounts": "0.00",
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_tax": "2.56",
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "2.56",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "2.56",
+        "currency_code": "USD"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_price": "34.56",
+    "total_price_set": {
+      "shop_money": {
+        "amount": "34.56",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "34.56",
+        "currency_code": "USD"
+      }
+    },
+    "customer": {
+      "id": 950000000015,
+      "email": "buyer15@example.com"
+    },
+    "refunds": [],
+    "graphql": {
+      "sourceName": "web",
+      "attribution": null,
+      "app": {
+        "id": "gid://shopify/App/100000001",
+        "name": "Online Store"
+      },
+      "publication": null,
+      "customerJourneySummary": {
+        "ready": true,
+        "lastVisit": {
+          "source": "direct",
+          "referrerUrl": "https://www.perplexity.ai/",
+          "landingPage": "https://demo-store.example/products/canvas-tote",
+          "utmParameters": null
+        }
+      }
+    }
+  },
+  {
+    "id": 990000000116,
+    "admin_graphql_api_id": "gid://shopify/Order/990000000116",
+    "name": "#D1016",
+    "email": "buyer16@example.com",
+    "created_at": "2026-10-01T18:45:00Z",
+    "processed_at": "2026-10-01T18:45:00Z",
+    "updated_at": "2026-10-01T18:45:00Z",
+    "test": false,
+    "currency": "USD",
+    "presentment_currency": "USD",
+    "financial_status": "paid",
+    "source_name": "web",
+    "app_id": null,
+    "landing_site": "/cart/c/SYNTHCART16?utm_source=example-agent&utm_medium=agentic_commerce",
+    "referring_site": null,
+    "browser_ip": "203.0.113.16",
+    "client_details": {
+      "browser_ip": "203.0.113.16",
+      "user_agent": "Mozilla/5.0 (synthetic demo browser)",
+      "accept_language": "en-US"
+    },
+    "order_status_url": "https://demo-store.example/99000000/orders/synthetictoken16/authenticate?key=synthetictoken16",
+    "buyer_accepts_marketing": false,
+    "note": null,
+    "note_attributes": [],
+    "discount_codes": [],
+    "line_items": [
+      {
+        "id": 960000000021,
+        "product_id": 880000000001,
+        "variant_id": 870000000001,
+        "sku": "DEMO-LIN-01",
+        "title": "Linen Shirt",
+        "variant_title": "M / Sand",
+        "vendor": "Demo Goods Co.",
+        "quantity": 1,
+        "price": "59.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "59.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "59.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": []
+      },
+      {
+        "id": 960000000022,
+        "product_id": 880000000005,
+        "variant_id": 870000000005,
+        "sku": "DEMO-MUG-05",
+        "title": "Ceramic Mug",
+        "variant_title": "Speckled",
+        "vendor": "Demo Goods Co.",
+        "quantity": 1,
+        "price": "18.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "18.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "18.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": []
+      }
+    ],
+    "subtotal_price": "77.00",
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "77.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "77.00",
+        "currency_code": "USD"
+      }
+    },
+    "current_subtotal_price": "77.00",
+    "current_subtotal_price_set": {
+      "shop_money": {
+        "amount": "77.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "77.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_discounts": "0.00",
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_tax": "6.16",
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "6.16",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "6.16",
+        "currency_code": "USD"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_price": "83.16",
+    "total_price_set": {
+      "shop_money": {
+        "amount": "83.16",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "83.16",
+        "currency_code": "USD"
+      }
+    },
+    "customer": {
+      "id": 950000000016,
+      "email": "buyer16@example.com"
+    },
+    "refunds": [],
+    "graphql": {
+      "sourceName": "web",
+      "attribution": null,
+      "app": {
+        "id": "gid://shopify/App/100000001",
+        "name": "Online Store"
+      },
+      "publication": null,
+      "customerJourneySummary": {
+        "ready": true,
+        "lastVisit": {
+          "source": "direct",
+          "referrerUrl": null,
+          "landingPage": "https://demo-store.example/cart/c/SYNTHCART16?utm_source=example-agent&utm_medium=agentic_commerce",
+          "utmParameters": null
+        }
+      }
+    }
+  },
+  {
+    "id": 990000000117,
+    "admin_graphql_api_id": "gid://shopify/Order/990000000117",
+    "name": "#D1017",
+    "email": "buyer17@example.com",
+    "created_at": "2026-10-01T20:10:00Z",
+    "processed_at": "2026-10-01T20:10:00Z",
+    "updated_at": "2026-10-01T20:10:00Z",
+    "test": false,
+    "currency": "USD",
+    "presentment_currency": "USD",
+    "financial_status": "paid",
+    "source_name": "synthetic_ai_channel_source",
+    "app_id": null,
+    "landing_site": null,
+    "referring_site": null,
+    "browser_ip": null,
+    "client_details": {
+      "browser_ip": null,
+      "user_agent": null,
+      "accept_language": null
+    },
+    "order_status_url": "https://demo-store.example/99000000/orders/synthetictoken17/authenticate?key=synthetictoken17",
+    "buyer_accepts_marketing": false,
+    "note": null,
+    "note_attributes": [],
+    "discount_codes": [],
+    "line_items": [
+      {
+        "id": 960000000023,
+        "product_id": 880000000002,
+        "variant_id": 870000000002,
+        "sku": "DEMO-TRL-02",
+        "title": "Trail Runner Sneaker",
+        "variant_title": "42 / Slate",
+        "vendor": "Demo Goods Co.",
+        "quantity": 1,
+        "price": "129.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "129.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "129.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": []
+      }
+    ],
+    "subtotal_price": "129.00",
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "129.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "129.00",
+        "currency_code": "USD"
+      }
+    },
+    "current_subtotal_price": "129.00",
+    "current_subtotal_price_set": {
+      "shop_money": {
+        "amount": "129.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "129.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_discounts": "0.00",
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_tax": "10.32",
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "10.32",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "10.32",
+        "currency_code": "USD"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_price": "139.32",
+    "total_price_set": {
+      "shop_money": {
+        "amount": "139.32",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "139.32",
+        "currency_code": "USD"
+      }
+    },
+    "customer": {
+      "id": 950000000017,
+      "email": "buyer17@example.com"
+    },
+    "refunds": [],
+    "graphql": {
+      "sourceName": "synthetic_ai_channel_source",
+      "attribution": {
+        "handle": "synthetic-google-gemini",
+        "displayName": "Gemini (synthetic label)"
+      },
+      "app": null,
+      "publication": null,
+      "customerJourneySummary": {
+        "ready": true,
+        "lastVisit": null
+      }
+    }
+  },
+  {
+    "id": 990000000118,
+    "admin_graphql_api_id": "gid://shopify/Order/990000000118",
+    "name": "#D1018",
+    "email": "buyer18@example.com",
+    "created_at": "2026-10-02T01:00:00Z",
+    "processed_at": "2026-10-02T01:00:00Z",
+    "updated_at": "2026-10-02T06:00:00Z",
+    "test": false,
+    "currency": "USD",
+    "presentment_currency": "USD",
+    "financial_status": "paid",
+    "source_name": "web",
+    "app_id": null,
+    "landing_site": "/products/linen-shirt",
+    "referring_site": null,
+    "browser_ip": "203.0.113.18",
+    "client_details": {
+      "browser_ip": "203.0.113.18",
+      "user_agent": "Mozilla/5.0 (synthetic demo browser)",
+      "accept_language": "en-US"
+    },
+    "order_status_url": "https://demo-store.example/99000000/orders/synthetictoken18/authenticate?key=synthetictoken18",
+    "buyer_accepts_marketing": false,
+    "note": null,
+    "note_attributes": [
+      {
+        "name": "_ga",
+        "value": "GA1.1.1000019998.1758801800"
+      }
+    ],
+    "discount_codes": [],
+    "line_items": [
+      {
+        "id": 960000000024,
+        "product_id": 880000000001,
+        "variant_id": 870000000001,
+        "sku": "DEMO-LIN-01",
+        "title": "Linen Shirt",
+        "variant_title": "M / Sand",
+        "vendor": "Demo Goods Co.",
+        "quantity": 1,
+        "price": "59.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "59.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "59.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": []
+      }
+    ],
+    "subtotal_price": "59.00",
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "59.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "59.00",
+        "currency_code": "USD"
+      }
+    },
+    "current_subtotal_price": "59.00",
+    "current_subtotal_price_set": {
+      "shop_money": {
+        "amount": "59.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "59.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_discounts": "0.00",
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_tax": "4.72",
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "4.72",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "4.72",
+        "currency_code": "USD"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_price": "63.72",
+    "total_price_set": {
+      "shop_money": {
+        "amount": "63.72",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "63.72",
+        "currency_code": "USD"
+      }
+    },
+    "customer": {
+      "id": 950000000018,
+      "email": "buyer18@example.com"
+    },
+    "refunds": [],
+    "graphql": {
+      "sourceName": "web",
+      "attribution": null,
+      "app": {
+        "id": "gid://shopify/App/100000001",
+        "name": "Online Store"
+      },
+      "publication": null,
+      "customerJourneySummary": {
+        "ready": true,
+        "lastVisit": {
+          "source": "direct",
+          "referrerUrl": null,
+          "landingPage": "https://demo-store.example/products/linen-shirt",
+          "utmParameters": null
+        }
+      }
+    }
+  },
+  {
+    "id": 990000000119,
+    "admin_graphql_api_id": "gid://shopify/Order/990000000119",
+    "name": "#D1019",
+    "email": "buyer19@example.com",
+    "created_at": "2026-10-02T03:30:00Z",
+    "processed_at": "2026-10-02T03:30:00Z",
+    "updated_at": "2026-10-02T03:30:00Z",
+    "test": false,
+    "currency": "USD",
+    "presentment_currency": "EUR",
+    "financial_status": "paid",
+    "source_name": "web",
+    "app_id": null,
+    "landing_site": "/products/trail-runner?wbraid=SYNTH-WBRAID-0019",
+    "referring_site": null,
+    "browser_ip": "203.0.113.19",
+    "client_details": {
+      "browser_ip": "203.0.113.19",
+      "user_agent": "Mozilla/5.0 (synthetic demo browser)",
+      "accept_language": "en-US"
+    },
+    "order_status_url": "https://demo-store.example/99000000/orders/synthetictoken19/authenticate?key=synthetictoken19",
+    "buyer_accepts_marketing": false,
+    "note": null,
+    "note_attributes": [
+      {
+        "name": "_ga",
+        "value": "GA1.1.1000021109.1758801900"
+      }
+    ],
+    "discount_codes": [],
+    "line_items": [
+      {
+        "id": 960000000025,
+        "product_id": 880000000002,
+        "variant_id": 870000000002,
+        "sku": "DEMO-TRL-02",
+        "title": "Trail Runner Sneaker",
+        "variant_title": "42 / Slate",
+        "vendor": "Demo Goods Co.",
+        "quantity": 1,
+        "price": "129.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "129.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "118.68",
+            "currency_code": "EUR"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "EUR"
+          }
+        },
+        "discount_allocations": []
+      }
+    ],
+    "subtotal_price": "129.00",
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "129.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "118.68",
+        "currency_code": "EUR"
+      }
+    },
+    "current_subtotal_price": "129.00",
+    "current_subtotal_price_set": {
+      "shop_money": {
+        "amount": "129.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "118.68",
+        "currency_code": "EUR"
+      }
+    },
+    "total_discounts": "0.00",
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "EUR"
+      }
+    },
+    "total_tax": "0.00",
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "EUR"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "12.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "11.04",
+        "currency_code": "EUR"
+      }
+    },
+    "total_price": "141.00",
+    "total_price_set": {
+      "shop_money": {
+        "amount": "141.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "129.72",
+        "currency_code": "EUR"
+      }
+    },
+    "customer": {
+      "id": 950000000019,
+      "email": "buyer19@example.com"
+    },
+    "refunds": [],
+    "graphql": {
+      "sourceName": "web",
+      "attribution": null,
+      "app": {
+        "id": "gid://shopify/App/100000001",
+        "name": "Online Store"
+      },
+      "publication": null,
+      "customerJourneySummary": {
+        "ready": true,
+        "lastVisit": {
+          "source": "direct",
+          "referrerUrl": null,
+          "landingPage": "https://demo-store.example/products/trail-runner?wbraid=SYNTH-WBRAID-0019",
+          "utmParameters": null
+        }
+      }
+    }
+  },
+  {
+    "id": 990000000120,
+    "admin_graphql_api_id": "gid://shopify/Order/990000000120",
+    "name": "#D1020",
+    "email": "buyer20@example.com",
+    "created_at": "2026-10-02T05:00:00Z",
+    "processed_at": "2026-10-02T05:00:00Z",
+    "updated_at": "2026-10-02T05:00:00Z",
+    "test": false,
+    "currency": "USD",
+    "presentment_currency": "USD",
+    "financial_status": "paid",
+    "source_name": "web",
+    "app_id": null,
+    "landing_site": "/products/canvas-tote?fbclid=SYNTH-FBCLID-0020",
+    "referring_site": "https://l.facebook.com/",
+    "browser_ip": "203.0.113.20",
+    "client_details": {
+      "browser_ip": "203.0.113.20",
+      "user_agent": "Mozilla/5.0 (synthetic demo browser)",
+      "accept_language": "en-US"
+    },
+    "order_status_url": "https://demo-store.example/99000000/orders/synthetictoken20/authenticate?key=synthetictoken20",
+    "buyer_accepts_marketing": false,
+    "note": null,
+    "note_attributes": [
+      {
+        "name": "_ga",
+        "value": "GA1.1.1000022220.1758802000"
+      }
+    ],
+    "discount_codes": [],
+    "line_items": [
+      {
+        "id": 960000000026,
+        "product_id": 880000000004,
+        "variant_id": 870000000004,
+        "sku": "DEMO-TOT-04",
+        "title": "Canvas Tote",
+        "variant_title": null,
+        "vendor": "Demo Goods Co.",
+        "quantity": 1,
+        "price": "32.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "32.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "32.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": []
+      },
+      {
+        "id": 960000000027,
+        "product_id": 880000000003,
+        "variant_id": 870000000003,
+        "sku": "DEMO-BNE-03",
+        "title": "Wool Beanie",
+        "variant_title": "One size / Rust",
+        "vendor": "Demo Goods Co.",
+        "quantity": 1,
+        "price": "24.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "24.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "24.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": []
+      }
+    ],
+    "subtotal_price": "56.00",
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "56.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "56.00",
+        "currency_code": "USD"
+      }
+    },
+    "current_subtotal_price": "56.00",
+    "current_subtotal_price_set": {
+      "shop_money": {
+        "amount": "56.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "56.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_discounts": "0.00",
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_tax": "4.48",
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "4.48",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "4.48",
+        "currency_code": "USD"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_price": "60.48",
+    "total_price_set": {
+      "shop_money": {
+        "amount": "60.48",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "60.48",
+        "currency_code": "USD"
+      }
+    },
+    "customer": {
+      "id": 950000000020,
+      "email": "buyer20@example.com"
+    },
+    "refunds": [],
+    "graphql": {
+      "sourceName": "web",
+      "attribution": null,
+      "app": {
+        "id": "gid://shopify/App/100000001",
+        "name": "Online Store"
+      },
+      "publication": null,
+      "customerJourneySummary": {
+        "ready": true,
+        "lastVisit": {
+          "source": "direct",
+          "referrerUrl": "https://l.facebook.com/",
+          "landingPage": "https://demo-store.example/products/canvas-tote?fbclid=SYNTH-FBCLID-0020",
+          "utmParameters": null
+        }
+      }
+    }
+  },
+  {
+    "id": 990000000121,
+    "admin_graphql_api_id": "gid://shopify/Order/990000000121",
+    "name": "#D1021",
+    "email": "buyer21@example.com",
+    "created_at": "2026-10-02T07:00:00Z",
+    "processed_at": "2026-10-02T07:00:00Z",
+    "updated_at": "2026-10-02T07:00:00Z",
+    "test": true,
+    "currency": "USD",
+    "presentment_currency": "USD",
+    "financial_status": "paid",
+    "source_name": "web",
+    "app_id": null,
+    "landing_site": "/",
+    "referring_site": null,
+    "browser_ip": "203.0.113.21",
+    "client_details": {
+      "browser_ip": "203.0.113.21",
+      "user_agent": "Mozilla/5.0 (synthetic demo browser)",
+      "accept_language": "en-US"
+    },
+    "order_status_url": "https://demo-store.example/99000000/orders/synthetictoken21/authenticate?key=synthetictoken21",
+    "buyer_accepts_marketing": false,
+    "note": null,
+    "note_attributes": [],
+    "discount_codes": [],
+    "line_items": [
+      {
+        "id": 960000000028,
+        "product_id": 880000000005,
+        "variant_id": 870000000005,
+        "sku": "DEMO-MUG-05",
+        "title": "Ceramic Mug",
+        "variant_title": "Speckled",
+        "vendor": "Demo Goods Co.",
+        "quantity": 1,
+        "price": "18.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "18.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "18.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": []
+      }
+    ],
+    "subtotal_price": "18.00",
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "18.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "18.00",
+        "currency_code": "USD"
+      }
+    },
+    "current_subtotal_price": "18.00",
+    "current_subtotal_price_set": {
+      "shop_money": {
+        "amount": "18.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "18.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_discounts": "0.00",
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_tax": "1.44",
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "1.44",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "1.44",
+        "currency_code": "USD"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_price": "19.44",
+    "total_price_set": {
+      "shop_money": {
+        "amount": "19.44",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "19.44",
+        "currency_code": "USD"
+      }
+    },
+    "customer": {
+      "id": 950000000021,
+      "email": "buyer21@example.com"
+    },
+    "refunds": [],
+    "graphql": {
+      "sourceName": "web",
+      "attribution": null,
+      "app": {
+        "id": "gid://shopify/App/100000001",
+        "name": "Online Store"
+      },
+      "publication": null,
+      "customerJourneySummary": {
+        "ready": true,
+        "lastVisit": {
+          "source": "direct",
+          "referrerUrl": null,
+          "landingPage": "https://demo-store.example/",
+          "utmParameters": null
+        }
+      }
+    }
+  },
+  {
+    "id": 990000000122,
+    "admin_graphql_api_id": "gid://shopify/Order/990000000122",
+    "name": "#D1022",
+    "email": "buyer22@example.com",
+    "created_at": "2026-09-27T06:00:00Z",
+    "processed_at": "2026-09-27T06:00:00Z",
+    "updated_at": "2026-09-27T06:00:00Z",
+    "test": false,
+    "currency": "USD",
+    "presentment_currency": "USD",
+    "financial_status": "paid",
+    "source_name": "synthetic_ai_channel_source",
+    "app_id": null,
+    "landing_site": null,
+    "referring_site": null,
+    "browser_ip": null,
+    "client_details": {
+      "browser_ip": null,
+      "user_agent": null,
+      "accept_language": null
+    },
+    "order_status_url": "https://demo-store.example/99000000/orders/synthetictoken22/authenticate?key=synthetictoken22",
+    "buyer_accepts_marketing": false,
+    "note": null,
+    "note_attributes": [],
+    "discount_codes": [],
+    "line_items": [
+      {
+        "id": 960000000029,
+        "product_id": 880000000003,
+        "variant_id": 870000000003,
+        "sku": "DEMO-BNE-03",
+        "title": "Wool Beanie",
+        "variant_title": "One size / Rust",
+        "vendor": "Demo Goods Co.",
+        "quantity": 1,
+        "price": "24.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "24.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "24.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": []
+      },
+      {
+        "id": 960000000030,
+        "product_id": 880000000005,
+        "variant_id": 870000000005,
+        "sku": "DEMO-MUG-05",
+        "title": "Ceramic Mug",
+        "variant_title": "Speckled",
+        "vendor": "Demo Goods Co.",
+        "quantity": 1,
+        "price": "18.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "18.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "18.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": []
+      }
+    ],
+    "subtotal_price": "42.00",
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "42.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "42.00",
+        "currency_code": "USD"
+      }
+    },
+    "current_subtotal_price": "42.00",
+    "current_subtotal_price_set": {
+      "shop_money": {
+        "amount": "42.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "42.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_discounts": "0.00",
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_tax": "3.36",
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "3.36",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "3.36",
+        "currency_code": "USD"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_price": "45.36",
+    "total_price_set": {
+      "shop_money": {
+        "amount": "45.36",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "45.36",
+        "currency_code": "USD"
+      }
+    },
+    "customer": {
+      "id": 950000000022,
+      "email": "buyer22@example.com"
+    },
+    "refunds": [],
+    "graphql": {
+      "sourceName": "synthetic_ai_channel_source",
+      "attribution": {
+        "handle": "synthetic-microsoft-copilot",
+        "displayName": "Microsoft Copilot (synthetic label)"
+      },
+      "app": null,
+      "publication": null,
+      "customerJourneySummary": {
+        "ready": true,
+        "lastVisit": null
+      }
+    }
+  },
+  {
+    "id": 990000000123,
+    "admin_graphql_api_id": "gid://shopify/Order/990000000123",
+    "name": "#D1023",
+    "email": "buyer23@example.com",
+    "created_at": "2026-10-02T08:00:00Z",
+    "processed_at": "2026-10-02T08:00:00Z",
+    "updated_at": "2026-10-02T08:00:00Z",
+    "test": false,
+    "currency": "USD",
+    "presentment_currency": "USD",
+    "financial_status": "paid",
+    "source_name": "synthetic_unknown_app",
+    "app_id": null,
+    "landing_site": null,
+    "referring_site": null,
+    "browser_ip": "203.0.113.23",
+    "client_details": {
+      "browser_ip": "203.0.113.23",
+      "user_agent": "Mozilla/5.0 (synthetic demo browser)",
+      "accept_language": "en-US"
+    },
+    "order_status_url": "https://demo-store.example/99000000/orders/synthetictoken23/authenticate?key=synthetictoken23",
+    "buyer_accepts_marketing": false,
+    "note": null,
+    "note_attributes": [
+      {
+        "name": "_ga",
+        "value": "GA1.1.1000025553.1758802300"
+      }
+    ],
+    "discount_codes": [],
+    "line_items": [
+      {
+        "id": 960000000031,
+        "product_id": 880000000006,
+        "variant_id": 870000000006,
+        "sku": "DEMO-DUF-06",
+        "title": "Limited Edition Hand-Stitched Waxed Canvas Weekender Duffel Bag With Leather Trim, Brass Hardware and Lifetime Repair Card",
+        "variant_title": "Olive",
+        "vendor": "Demo Goods Co.",
+        "quantity": 1,
+        "price": "210.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "210.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "210.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": []
+      }
+    ],
+    "subtotal_price": "210.00",
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "210.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "210.00",
+        "currency_code": "USD"
+      }
+    },
+    "current_subtotal_price": "210.00",
+    "current_subtotal_price_set": {
+      "shop_money": {
+        "amount": "210.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "210.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_discounts": "0.00",
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_tax": "16.80",
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "16.80",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "16.80",
+        "currency_code": "USD"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_price": "226.80",
+    "total_price_set": {
+      "shop_money": {
+        "amount": "226.80",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "226.80",
+        "currency_code": "USD"
+      }
+    },
+    "customer": {
+      "id": 950000000023,
+      "email": "buyer23@example.com"
+    },
+    "refunds": [],
+    "graphql": {
+      "sourceName": "synthetic_unknown_app",
+      "attribution": null,
+      "app": {
+        "id": "gid://shopify/App/100000303",
+        "name": "Synthetic Wholesale Importer"
+      },
+      "publication": null,
+      "customerJourneySummary": {
+        "ready": true,
+        "lastVisit": null
+      }
+    }
+  },
+  {
+    "id": 990000000124,
+    "admin_graphql_api_id": "gid://shopify/Order/990000000124",
+    "name": "#D1024",
+    "email": "buyer24@example.com",
+    "created_at": "2026-09-30T21:00:00Z",
+    "processed_at": "2026-09-30T21:00:00Z",
+    "updated_at": "2026-09-30T21:00:00Z",
+    "test": false,
+    "currency": "USD",
+    "presentment_currency": "USD",
+    "financial_status": "paid",
+    "source_name": "web",
+    "app_id": null,
+    "landing_site": "/products/ceramic-mug?utm_source=chatgpt.com",
+    "referring_site": "https://chatgpt.com/",
+    "browser_ip": "203.0.113.24",
+    "client_details": {
+      "browser_ip": "203.0.113.24",
+      "user_agent": "Mozilla/5.0 (synthetic demo browser)",
+      "accept_language": "en-US"
+    },
+    "order_status_url": "https://demo-store.example/99000000/orders/synthetictoken24/authenticate?key=synthetictoken24",
+    "buyer_accepts_marketing": false,
+    "note": null,
+    "note_attributes": [],
+    "discount_codes": [],
+    "line_items": [
+      {
+        "id": 960000000032,
+        "product_id": 880000000005,
+        "variant_id": 870000000005,
+        "sku": "DEMO-MUG-05",
+        "title": "Ceramic Mug",
+        "variant_title": "Speckled",
+        "vendor": "Demo Goods Co.",
+        "quantity": 2,
+        "price": "18.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "18.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "18.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": []
+      }
+    ],
+    "subtotal_price": "36.00",
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "36.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "36.00",
+        "currency_code": "USD"
+      }
+    },
+    "current_subtotal_price": "36.00",
+    "current_subtotal_price_set": {
+      "shop_money": {
+        "amount": "36.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "36.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_discounts": "0.00",
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_tax": "2.88",
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "2.88",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "2.88",
+        "currency_code": "USD"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_price": "38.88",
+    "total_price_set": {
+      "shop_money": {
+        "amount": "38.88",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "38.88",
+        "currency_code": "USD"
+      }
+    },
+    "customer": {
+      "id": 950000000024,
+      "email": "buyer24@example.com"
+    },
+    "refunds": [],
+    "graphql": {
+      "sourceName": "web",
+      "attribution": null,
+      "app": {
+        "id": "gid://shopify/App/100000001",
+        "name": "Online Store"
+      },
+      "publication": null,
+      "customerJourneySummary": {
+        "ready": true,
+        "lastVisit": {
+          "source": "direct",
+          "referrerUrl": "https://chatgpt.com/",
+          "landingPage": "https://demo-store.example/products/ceramic-mug?utm_source=chatgpt.com",
+          "utmParameters": null
+        }
+      }
+    }
+  },
+  {
+    "id": 990000000125,
+    "admin_graphql_api_id": "gid://shopify/Order/990000000125",
+    "name": "#D1025",
+    "email": "buyer25@example.com",
+    "created_at": "2026-10-02T09:30:00Z",
+    "processed_at": "2026-10-02T09:30:00Z",
+    "updated_at": "2026-10-02T09:30:00Z",
+    "test": false,
+    "currency": "USD",
+    "presentment_currency": "USD",
+    "financial_status": "paid",
+    "source_name": "web",
+    "app_id": null,
+    "landing_site": "/products/linen-shirt?oppref=gAAAAASYNTHETIC0025",
+    "referring_site": null,
+    "browser_ip": "203.0.113.25",
+    "client_details": {
+      "browser_ip": "203.0.113.25",
+      "user_agent": "Mozilla/5.0 (synthetic demo browser)",
+      "accept_language": "en-US"
+    },
+    "order_status_url": "https://demo-store.example/99000000/orders/synthetictoken25/authenticate?key=synthetictoken25",
+    "buyer_accepts_marketing": false,
+    "note": null,
+    "note_attributes": [
+      {
+        "name": "__oppref",
+        "value": "gAAAAASYNTHETIC0025"
+      }
+    ],
+    "discount_codes": [],
+    "line_items": [
+      {
+        "id": 960000000033,
+        "product_id": 880000000001,
+        "variant_id": 870000000001,
+        "sku": "DEMO-LIN-01",
+        "title": "Linen Shirt",
+        "variant_title": "M / Sand",
+        "vendor": "Demo Goods Co.",
+        "quantity": 1,
+        "price": "59.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "59.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "59.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": []
+      }
+    ],
+    "subtotal_price": "59.00",
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "59.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "59.00",
+        "currency_code": "USD"
+      }
+    },
+    "current_subtotal_price": "59.00",
+    "current_subtotal_price_set": {
+      "shop_money": {
+        "amount": "59.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "59.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_discounts": "0.00",
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_tax": "4.72",
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "4.72",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "4.72",
+        "currency_code": "USD"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_price": "63.72",
+    "total_price_set": {
+      "shop_money": {
+        "amount": "63.72",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "63.72",
+        "currency_code": "USD"
+      }
+    },
+    "customer": {
+      "id": 950000000025,
+      "email": "buyer25@example.com"
+    },
+    "refunds": [],
+    "graphql": {
+      "sourceName": "web",
+      "attribution": null,
+      "app": {
+        "id": "gid://shopify/App/100000001",
+        "name": "Online Store"
+      },
+      "publication": null,
+      "customerJourneySummary": {
+        "ready": true,
+        "lastVisit": {
+          "source": "direct",
+          "referrerUrl": null,
+          "landingPage": "https://demo-store.example/products/linen-shirt?oppref=gAAAAASYNTHETIC0025",
+          "utmParameters": null
+        }
+      }
+    }
+  }
+]

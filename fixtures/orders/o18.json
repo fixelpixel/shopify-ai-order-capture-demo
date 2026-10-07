@@ -1,0 +1,162 @@
+{
+  "_synthetic": "Synthetic test data for this demo. Not a real order, store or customer. Attribution/app/publication values are invented to exercise the classifier and are NOT values observed on real Shopify orders.",
+  "ref": "o18",
+  "scenario": "Bank-transfer order: orders/create arrives pending, orders/paid five hours later.",
+  "expected_channel": "web",
+  "payload": {
+    "id": 990000000118,
+    "admin_graphql_api_id": "gid://shopify/Order/990000000118",
+    "name": "#D1018",
+    "email": "buyer18@example.com",
+    "created_at": "2026-10-02T01:00:00Z",
+    "processed_at": "2026-10-02T01:00:00Z",
+    "updated_at": "2026-10-02T01:00:00Z",
+    "test": false,
+    "currency": "USD",
+    "presentment_currency": "USD",
+    "financial_status": "pending",
+    "source_name": "web",
+    "app_id": null,
+    "landing_site": "/products/linen-shirt",
+    "referring_site": null,
+    "browser_ip": "203.0.113.18",
+    "client_details": {
+      "browser_ip": "203.0.113.18",
+      "user_agent": "Mozilla/5.0 (synthetic demo browser)",
+      "accept_language": "en-US"
+    },
+    "order_status_url": "https://demo-store.example/99000000/orders/synthetictoken18/authenticate?key=synthetictoken18",
+    "buyer_accepts_marketing": false,
+    "note": null,
+    "note_attributes": [
+      {
+        "name": "_ga",
+        "value": "GA1.1.1000019998.1758801800"
+      }
+    ],
+    "discount_codes": [],
+    "line_items": [
+      {
+        "id": 960000000024,
+        "product_id": 880000000001,
+        "variant_id": 870000000001,
+        "sku": "DEMO-LIN-01",
+        "title": "Linen Shirt",
+        "variant_title": "M / Sand",
+        "vendor": "Demo Goods Co.",
+        "quantity": 1,
+        "price": "59.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "59.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "59.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": []
+      }
+    ],
+    "subtotal_price": "59.00",
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "59.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "59.00",
+        "currency_code": "USD"
+      }
+    },
+    "current_subtotal_price": "59.00",
+    "current_subtotal_price_set": {
+      "shop_money": {
+        "amount": "59.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "59.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_discounts": "0.00",
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_tax": "4.72",
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "4.72",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "4.72",
+        "currency_code": "USD"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_price": "63.72",
+    "total_price_set": {
+      "shop_money": {
+        "amount": "63.72",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "63.72",
+        "currency_code": "USD"
+      }
+    },
+    "customer": {
+      "id": 950000000018,
+      "email": "buyer18@example.com"
+    },
+    "refunds": []
+  },
+  "graphql": {
+    "sourceName": "web",
+    "attribution": null,
+    "app": {
+      "id": "gid://shopify/App/100000001",
+      "name": "Online Store"
+    },
+    "publication": null,
+    "customerJourneySummary": {
+      "ready": true,
+      "lastVisit": {
+        "source": "direct",
+        "referrerUrl": null,
+        "landingPage": "https://demo-store.example/products/linen-shirt",
+        "utmParameters": null
+      }
+    }
+  }
+}

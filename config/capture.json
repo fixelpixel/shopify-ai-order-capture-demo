@@ -1,0 +1,62 @@
+{
+  "_about": "Capture settings. Attribute names are the cart/order attributes a storefront snippet would copy from cookies and the landing URL into the order (note_attributes). Change them to match your theme.",
+
+  "money_source": "shop",
+
+  "purchase_on_financial_status": ["authorized", "paid", "partially_paid"],
+
+  "attributes": {
+    "ga_client_id": ["_ga", "ga_client_id"],
+    "ga_session_id": ["ga_session_id", "_ga_session_id"],
+    "fbp": ["_fbp"],
+    "fbc": ["_fbc"],
+    "fbclid": ["fbclid", "_fbclid"],
+    "gclid": ["_gclid", "gclid"],
+    "gbraid": ["_gbraid", "gbraid"],
+    "wbraid": ["_wbraid", "wbraid"],
+    "oppref": ["__oppref", "_oppref", "oppref"],
+    "obref": ["__obref", "_obref"],
+    "ad_consent": ["_consent_marketing", "consent_marketing"]
+  },
+
+  "consent": {
+    "granted_values": ["granted", "true", "yes", "1"],
+    "denied_values": ["denied", "false", "no", "0"],
+    "require_for_all_ad_platforms": false,
+    "_note": "With require_for_all_ad_platforms=false the send rule follows the identifier rules only, and hashed email is used only when consent is granted. Set it to true to send nothing to ad platforms without a captured 'granted' signal."
+  },
+
+  "ga4": {
+    "policy": {
+      "direct": "send",
+      "store": "send_if_client_id",
+      "unknown": "send_if_client_id"
+    },
+    "_policy_values": "send | send_if_client_id | never. 'direct' = checkout inside the AI surface, where Shopify says GA and custom pixels do not fire. 'store' = the buyer finished on the store's own checkout, where the browser tag also records the purchase.",
+    "max_backdate_hours": 72,
+    "region": "global",
+    "_region_values": "global (www.google-analytics.com) | eu (region1.google-analytics.com)"
+  },
+
+  "dedup": {
+    "webhook_ttl_hours": 24,
+    "purchase_ttl_days": 7
+  },
+
+  "platforms": {
+    "meta": {
+      "endpoint": "https://graph.facebook.com/<GRAPH_API_VERSION>/<PIXEL_ID>/events",
+      "max_event_age_days": 7
+    },
+    "google_ads": {
+      "endpoint": "https://datamanager.googleapis.com/v1/events:ingest",
+      "operating_account_id": "<GOOGLE_ADS_CUSTOMER_ID>",
+      "conversion_action_id": "<CONVERSION_ACTION_ID>"
+    },
+    "openai": {
+      "endpoint": "https://bzr.openai.com/v1/events?pid=<PIXEL_ID>",
+      "max_event_age_days": 7,
+      "max_future_minutes": 10
+    }
+  }
+}

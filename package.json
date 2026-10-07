@@ -1,0 +1,17 @@
+{
+  "name": "shopify-ai-order-capture-demo",
+  "version": "0.1.0",
+  "description": "Server-side capture of Shopify orders from AI channels: webhook HMAC check, dedup, channel labelling, GA4 Measurement Protocol purchase, ad-platform send rule and weekly reconciliation. Synthetic fixtures, zero runtime dependencies.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node scripts/demo.mjs",
+    "start": "node src/server.mjs",
+    "reconcile": "node src/reconcile.mjs"
+  }
+}

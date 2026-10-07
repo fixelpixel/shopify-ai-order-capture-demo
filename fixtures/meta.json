@@ -1,0 +1,10 @@
+{
+  "_synthetic": "Settings for the synthetic demo run. The secret is a throwaway test value used only to sign fixture deliveries.",
+  "shop_domain": "demo-store.example",
+  "shop_currency": "USD",
+  "app_secret": "demo-app-secret-not-a-real-key",
+  "week": {
+    "from": "2026-09-26T00:00:00Z",
+    "to": "2026-10-03T00:00:00Z"
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "_synthetic": "Synthetic test data for this demo. Not a real order, store or customer. Attribution/app/publication values are invented to exercise the classifier and are NOT values observed on real Shopify orders.",
+  "ref": "o20",
+  "scenario": "Online store order from a Facebook ad click: fbclid in the landing URL, no _fbc cookie captured.",
+  "expected_channel": "web",
+  "payload": {
+    "id": 990000000120,
+    "admin_graphql_api_id": "gid://shopify/Order/990000000120",
+    "name": "#D1020",
+    "email": "buyer20@example.com",
+    "created_at": "2026-10-02T05:00:00Z",
+    "processed_at": "2026-10-02T05:00:00Z",
+    "updated_at": "2026-10-02T05:00:00Z",
+    "test": false,
+    "currency": "USD",
+    "presentment_currency": "USD",
+    "financial_status": "paid",
+    "source_name": "web",
+    "app_id": null,
+    "landing_site": "/products/canvas-tote?fbclid=SYNTH-FBCLID-0020",
+    "referring_site": "https://l.facebook.com/",
+    "browser_ip": "203.0.113.20",
+    "client_details": {
+      "browser_ip": "203.0.113.20",
+      "user_agent": "Mozilla/5.0 (synthetic demo browser)",
+      "accept_language": "en-US"
+    },
+    "order_status_url": "https://demo-store.example/99000000/orders/synthetictoken20/authenticate?key=synthetictoken20",
+    "buyer_accepts_marketing": false,
+    "note": null,
+    "note_attributes": [
+      {
+        "name": "_ga",
+        "value": "GA1.1.1000022220.1758802000"
+      }
+    ],
+    "discount_codes": [],
+    "line_items": [
+      {
+        "id": 960000000026,
+        "product_id": 880000000004,
+        "variant_id": 870000000004,
+        "sku": "DEMO-TOT-04",
+        "title": "Canvas Tote",
+        "variant_title": null,
+        "vendor": "Demo Goods Co.",
+        "quantity": 1,
+        "price": "32.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "32.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "32.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": []
+      },
+      {
+        "id": 960000000027,
+        "product_id": 880000000003,
+        "variant_id": 870000000003,
+        "sku": "DEMO-BNE-03",
+        "title": "Wool Beanie",
+        "variant_title": "One size / Rust",
+        "vendor": "Demo Goods Co.",
+        "quantity": 1,
+        "price": "24.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "24.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "24.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": []
+      }
+    ],
+    "subtotal_price": "56.00",
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "56.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "56.00",
+        "currency_code": "USD"
+      }
+    },
+    "current_subtotal_price": "56.00",
+    "current_subtotal_price_set": {
+      "shop_money": {
+        "amount": "56.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "56.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_discounts": "0.00",
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_tax": "4.48",
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "4.48",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "4.48",
+        "currency_code": "USD"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_price": "60.48",
+    "total_price_set": {
+      "shop_money": {
+        "amount": "60.48",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "60.48",
+        "currency_code": "USD"
+      }
+    },
+    "customer": {
+      "id": 950000000020,
+      "email": "buyer20@example.com"
+    },
+    "refunds": []
+  },
+  "graphql": {
+    "sourceName": "web",
+    "attribution": null,
+    "app": {
+      "id": "gid://shopify/App/100000001",
+      "name": "Online Store"
+    },
+    "publication": null,
+    "customerJourneySummary": {
+      "ready": true,
+      "lastVisit": {
+        "source": "direct",
+        "referrerUrl": "https://l.facebook.com/",
+        "landingPage": "https://demo-store.example/products/canvas-tote?fbclid=SYNTH-FBCLID-0020",
+        "utmParameters": null
+      }
+    }
+  }
+}
